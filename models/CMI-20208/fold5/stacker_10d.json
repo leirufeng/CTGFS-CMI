@@ -1,0 +1,42 @@
+{
+  "feature_order": [
+    "snapshot_rank1_logit",
+    "snapshot_rank2_logit",
+    "snapshot_rank3_logit",
+    "snapshot_rank4_logit",
+    "snapshot_rank5_logit",
+    "log1p_path3",
+    "log1p_mir_degree",
+    "log1p_circ_degree",
+    "log1p_degree_product",
+    "normalized_path3"
+  ],
+  "coef": [
+    [
+      0.03575729324012564,
+      0.08355397661846262,
+      0.23751296434352392,
+      -0.07752396162264365,
+      0.04404753494186623,
+      1.15172377483243,
+      0.7205852371555714,
+      0.4676231542225007,
+      -1.1350488300572488,
+      0.20510389869422685
+    ]
+  ],
+  "intercept": [
+    -0.20273291103144334
+  ],
+  "classes": [
+    0.0,
+    1.0
+  ],
+  "C": 0.5,
+  "class_weight": "balanced",
+  "max_iter": 2000,
+  "n_iter": [
+    52
+  ],
+  "fit_split": "entire original validation, same as historical protocol"
+}
