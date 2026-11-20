@@ -1,0 +1,49 @@
+{
+  "dataset": "CMI-9905",
+  "fold_one_based": 1,
+  "checkpoint_fold_zero_based": 0,
+  "settings": {
+    "epochs": 30,
+    "batch_size": 1024,
+    "lr": 0.001,
+    "weight_decay": 1e-05,
+    "alignment_weight": 0.02,
+    "pu_weight": 0.03,
+    "patience": 8,
+    "seed": 42,
+    "d_model": 192,
+    "sequence_layers": 1,
+    "graph_layers": 3,
+    "sequence_encoder": "transformer",
+    "model": "circpu",
+    "split": "fivefold",
+    "validation_fraction": 0.1,
+    "use_structure_features": false,
+    "ensemble_size": 5,
+    "add_word2vec": false,
+    "stack_validation": true,
+    "eval_batch_size": 2048,
+    "circ_segment_length": 64,
+    "circ_segments": 4
+  },
+  "snapshot_epochs_one_based": [
+    9,
+    14,
+    13,
+    17,
+    16
+  ],
+  "epochs_run": 17,
+  "threshold": 0.5,
+  "test_metrics": {
+    "auc": 0.9600158147127843,
+    "aupr": 0.9649252593587937,
+    "accuracy": 0.9090909090909091,
+    "precision": 0.9308510638297872,
+    "sensitivity": 0.8838383838383839,
+    "specificity": 0.9343434343434344,
+    "mcc": 0.8192273114885191
+  },
+  "validation_role": "model_selection_and_stacker_fit",
+  "source_result_sha256": "17ce8f59ad9bd91c3a65f5c3b1214e0de30c221aac46db72801914b0b616d880"
+}
