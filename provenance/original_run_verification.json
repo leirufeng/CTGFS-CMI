@@ -1,0 +1,868 @@
+{
+  "status": "PASS",
+  "n_neural_runs": 15,
+  "n_stacking_fits": 30,
+  "n_saved_weights": 75,
+  "legacy_inputs_verified": 99,
+  "historical_sources": {
+    "data.py": "59307653bd33c9dbe457b1f42323922bfba705cb8793310618ddf03edf4d7914",
+    "model.py": "ca4e55c23e7165856e6b974994187a198a0459096e06f5fca50b2842600d6e26",
+    "run.py": "9fc723eeabb90e79e76d3984207616daeb5280c7a82d450e2d58b6d5b73747b7",
+    "__init__.py": "791df2286c0d69f346f2e0a7d78f7734d9fd73a108b96a84ec8a74b7201242b2"
+  },
+  "checks": [
+    {
+      "dataset": "CMI-20208",
+      "fold": 1,
+      "legacy_6d_bitwise_matches_original_training_function": true,
+      "all_LR_outputs_reconstructed": true,
+      "current_pair_files_and_structures_match": true,
+      "train_validation_test_disjoint": true,
+      "recorded_snapshot_mean_exact": true
+    },
+    {
+      "dataset": "CMI-20208",
+      "fold": 2,
+      "legacy_6d_bitwise_matches_original_training_function": true,
+      "all_LR_outputs_reconstructed": true,
+      "current_pair_files_and_structures_match": true,
+      "train_validation_test_disjoint": true,
+      "recorded_snapshot_mean_exact": true
+    },
+    {
+      "dataset": "CMI-20208",
+      "fold": 3,
+      "legacy_6d_bitwise_matches_original_training_function": true,
+      "all_LR_outputs_reconstructed": true,
+      "current_pair_files_and_structures_match": true,
+      "train_validation_test_disjoint": true,
+      "recorded_snapshot_mean_exact": true
+    },
+    {
+      "dataset": "CMI-20208",
+      "fold": 4,
+      "legacy_6d_bitwise_matches_original_training_function": true,
+      "all_LR_outputs_reconstructed": true,
+      "current_pair_files_and_structures_match": true,
+      "train_validation_test_disjoint": true,
+      "recorded_snapshot_mean_exact": true
+    },
+    {
+      "dataset": "CMI-20208",
+      "fold": 5,
+      "legacy_6d_bitwise_matches_original_training_function": true,
+      "all_LR_outputs_reconstructed": true,
+      "current_pair_files_and_structures_match": true,
+      "train_validation_test_disjoint": true,
+      "recorded_snapshot_mean_exact": true
+    },
+    {
+      "dataset": "CMI-9589",
+      "fold": 1,
+      "legacy_6d_bitwise_matches_original_training_function": true,
+      "all_LR_outputs_reconstructed": true,
+      "current_pair_files_and_structures_match": true,
+      "train_validation_test_disjoint": true,
+      "recorded_snapshot_mean_exact": true
+    },
+    {
+      "dataset": "CMI-9589",
+      "fold": 2,
+      "legacy_6d_bitwise_matches_original_training_function": true,
+      "all_LR_outputs_reconstructed": true,
+      "current_pair_files_and_structures_match": true,
+      "train_validation_test_disjoint": true,
+      "recorded_snapshot_mean_exact": true
+    },
+    {
+      "dataset": "CMI-9589",
+      "fold": 3,
+      "legacy_6d_bitwise_matches_original_training_function": true,
+      "all_LR_outputs_reconstructed": true,
+      "current_pair_files_and_structures_match": true,
+      "train_validation_test_disjoint": true,
+      "recorded_snapshot_mean_exact": true
+    },
+    {
+      "dataset": "CMI-9589",
+      "fold": 4,
+      "legacy_6d_bitwise_matches_original_training_function": true,
+      "all_LR_outputs_reconstructed": true,
+      "current_pair_files_and_structures_match": true,
+      "train_validation_test_disjoint": true,
+      "recorded_snapshot_mean_exact": true
+    },
+    {
+      "dataset": "CMI-9589",
+      "fold": 5,
+      "legacy_6d_bitwise_matches_original_training_function": true,
+      "all_LR_outputs_reconstructed": true,
+      "current_pair_files_and_structures_match": true,
+      "train_validation_test_disjoint": true,
+      "recorded_snapshot_mean_exact": true
+    },
+    {
+      "dataset": "CMI-9905",
+      "fold": 1,
+      "legacy_6d_bitwise_matches_original_training_function": true,
+      "all_LR_outputs_reconstructed": true,
+      "current_pair_files_and_structures_match": true,
+      "train_validation_test_disjoint": true,
+      "recorded_snapshot_mean_exact": true
+    },
+    {
+      "dataset": "CMI-9905",
+      "fold": 2,
+      "legacy_6d_bitwise_matches_original_training_function": true,
+      "all_LR_outputs_reconstructed": true,
+      "current_pair_files_and_structures_match": true,
+      "train_validation_test_disjoint": true,
+      "recorded_snapshot_mean_exact": true
+    },
+    {
+      "dataset": "CMI-9905",
+      "fold": 3,
+      "legacy_6d_bitwise_matches_original_training_function": true,
+      "all_LR_outputs_reconstructed": true,
+      "current_pair_files_and_structures_match": true,
+      "train_validation_test_disjoint": true,
+      "recorded_snapshot_mean_exact": true
+    },
+    {
+      "dataset": "CMI-9905",
+      "fold": 4,
+      "legacy_6d_bitwise_matches_original_training_function": true,
+      "all_LR_outputs_reconstructed": true,
+      "current_pair_files_and_structures_match": true,
+      "train_validation_test_disjoint": true,
+      "recorded_snapshot_mean_exact": true
+    },
+    {
+      "dataset": "CMI-9905",
+      "fold": 5,
+      "legacy_6d_bitwise_matches_original_training_function": true,
+      "all_LR_outputs_reconstructed": true,
+      "current_pair_files_and_structures_match": true,
+      "train_validation_test_disjoint": true,
+      "recorded_snapshot_mean_exact": true
+    }
+  ],
+  "original_test_file_coverage": [
+    {
+      "dataset": "CMI-9589",
+      "test_records": 9588,
+      "unique_test_pairs": 9588,
+      "pairwise_test_overlap": 0
+    },
+    {
+      "dataset": "CMI-9905",
+      "test_records": 9900,
+      "unique_test_pairs": 9900,
+      "pairwise_test_overlap": 0
+    },
+    {
+      "dataset": "CMI-20208",
+      "test_records": 20206,
+      "unique_test_pairs": 20206,
+      "pairwise_test_overlap": 0
+    }
+  ],
+  "historical_reference": [
+    {
+      "dataset": "CMI-9589",
+      "source": "E:\\py_file\\genome\\DGCLCMI-main\\result\\CIRC-PU-transformer-reproduction-20261014\\small",
+      "summary_sha256": "e3316953f2b7d8dd548cc4dbfb296f5da6ac6e25377a06fcb66eb29539e564e2",
+      "mcc_delta_6d": 0.0029246672612326385
+    },
+    {
+      "dataset": "CMI-9905",
+      "source": "E:\\py_file\\genome\\DGCLCMI-main\\result\\CIRC-PU-transformer-reproduction-20261014\\small",
+      "summary_sha256": "e3316953f2b7d8dd548cc4dbfb296f5da6ac6e25377a06fcb66eb29539e564e2",
+      "mcc_delta_6d": -0.0012438234794215353
+    },
+    {
+      "dataset": "CMI-20208",
+      "source": "E:\\py_file\\genome\\DGCLCMI-main\\result\\CIRC-PU-transformer-reproduction-20261014\\large",
+      "summary_sha256": "ca8d442e17380392428a298819bf39018e20f69b0e1302009101c5dd28e0ddea",
+      "mcc_delta_6d": -0.002481754652922219
+    }
+  ],
+  "weight_files": [
+    {
+      "dataset": "CMI-20208",
+      "fold": 1,
+      "rank": 1,
+      "epoch_one_based": 6,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-20208\\fold0\\snapshots\\snapshot_rank1.pt",
+      "bytes": 9607266,
+      "sha256": "794f112a1a72b87c41cd0b984f1164998be1771669fa82dce03a216db4551c07"
+    },
+    {
+      "dataset": "CMI-20208",
+      "fold": 1,
+      "rank": 2,
+      "epoch_one_based": 8,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-20208\\fold0\\snapshots\\snapshot_rank2.pt",
+      "bytes": 9607266,
+      "sha256": "47deed1cc3355a88854aa7b3650b40b6481783478bbada457f8f7830be50b31c"
+    },
+    {
+      "dataset": "CMI-20208",
+      "fold": 1,
+      "rank": 3,
+      "epoch_one_based": 5,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-20208\\fold0\\snapshots\\snapshot_rank3.pt",
+      "bytes": 9607266,
+      "sha256": "a84d87b8203829372164d690122f89fd466f8068f92c2b429f14882b97d78961"
+    },
+    {
+      "dataset": "CMI-20208",
+      "fold": 1,
+      "rank": 4,
+      "epoch_one_based": 9,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-20208\\fold0\\snapshots\\snapshot_rank4.pt",
+      "bytes": 9607266,
+      "sha256": "9761d573c99283ebda40090a255b1ffea2e7c9d75773806aa3d44aba006be82e"
+    },
+    {
+      "dataset": "CMI-20208",
+      "fold": 1,
+      "rank": 5,
+      "epoch_one_based": 11,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-20208\\fold0\\snapshots\\snapshot_rank5.pt",
+      "bytes": 9607266,
+      "sha256": "ee2981f3f684a45d0a282b020a303bbf002cbf06dfd8da39c4dbd8145745a595"
+    },
+    {
+      "dataset": "CMI-20208",
+      "fold": 2,
+      "rank": 1,
+      "epoch_one_based": 12,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-20208\\fold1\\snapshots\\snapshot_rank1.pt",
+      "bytes": 9607266,
+      "sha256": "8369479504e19df2069d44d9f3f7aafe631e1cefc298cecfaee0b969ae96d0bb"
+    },
+    {
+      "dataset": "CMI-20208",
+      "fold": 2,
+      "rank": 2,
+      "epoch_one_based": 10,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-20208\\fold1\\snapshots\\snapshot_rank2.pt",
+      "bytes": 9607266,
+      "sha256": "30b46e325739d0be02bbe800c87d64b45847160ad9aea73ee03f538a6ed5d3ec"
+    },
+    {
+      "dataset": "CMI-20208",
+      "fold": 2,
+      "rank": 3,
+      "epoch_one_based": 20,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-20208\\fold1\\snapshots\\snapshot_rank3.pt",
+      "bytes": 9607266,
+      "sha256": "097abdc7ee8beef8858f8ca563411011a1e8d31b8679bba9414c07c00ab8c9f5"
+    },
+    {
+      "dataset": "CMI-20208",
+      "fold": 2,
+      "rank": 4,
+      "epoch_one_based": 16,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-20208\\fold1\\snapshots\\snapshot_rank4.pt",
+      "bytes": 9607266,
+      "sha256": "e3c7f7a38144e09128f841e4615088a8f4cb4da31ec5bc9d6fa5fec77383ad80"
+    },
+    {
+      "dataset": "CMI-20208",
+      "fold": 2,
+      "rank": 5,
+      "epoch_one_based": 17,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-20208\\fold1\\snapshots\\snapshot_rank5.pt",
+      "bytes": 9607266,
+      "sha256": "41958773b5cdd4ca95293f822544bdad80b13bc787a605beda52b057aa48b3a9"
+    },
+    {
+      "dataset": "CMI-20208",
+      "fold": 3,
+      "rank": 1,
+      "epoch_one_based": 16,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-20208\\fold2\\snapshots\\snapshot_rank1.pt",
+      "bytes": 9607266,
+      "sha256": "69ed6d0e8cf10f5abba273f1a989f151dc1b54689ff476db2f70ad1ef48cc946"
+    },
+    {
+      "dataset": "CMI-20208",
+      "fold": 3,
+      "rank": 2,
+      "epoch_one_based": 9,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-20208\\fold2\\snapshots\\snapshot_rank2.pt",
+      "bytes": 9607266,
+      "sha256": "7eb68004c0e40dee80204184120424448cb6412cfa5c09f67e064aed9de85f5d"
+    },
+    {
+      "dataset": "CMI-20208",
+      "fold": 3,
+      "rank": 3,
+      "epoch_one_based": 17,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-20208\\fold2\\snapshots\\snapshot_rank3.pt",
+      "bytes": 9607266,
+      "sha256": "aad447a61fab8c2b547ae881ec61673b59bfff0d616430672daa2ba44339b07c"
+    },
+    {
+      "dataset": "CMI-20208",
+      "fold": 3,
+      "rank": 4,
+      "epoch_one_based": 22,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-20208\\fold2\\snapshots\\snapshot_rank4.pt",
+      "bytes": 9607266,
+      "sha256": "478b8f6dd7a29c28fb151fc0708f6a41f29822bbf234482ecce2fedaa3a213a1"
+    },
+    {
+      "dataset": "CMI-20208",
+      "fold": 3,
+      "rank": 5,
+      "epoch_one_based": 19,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-20208\\fold2\\snapshots\\snapshot_rank5.pt",
+      "bytes": 9607266,
+      "sha256": "f6835841e1544b80ce9a57b5fc41a6bf2dd2cc4debea579e7a2493995177be7c"
+    },
+    {
+      "dataset": "CMI-20208",
+      "fold": 4,
+      "rank": 1,
+      "epoch_one_based": 16,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-20208\\fold3\\snapshots\\snapshot_rank1.pt",
+      "bytes": 9607266,
+      "sha256": "dfe8cbff109e236c7729a78152ea0363c443d1b1fe23165e7bfa05ab93106763"
+    },
+    {
+      "dataset": "CMI-20208",
+      "fold": 4,
+      "rank": 2,
+      "epoch_one_based": 8,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-20208\\fold3\\snapshots\\snapshot_rank2.pt",
+      "bytes": 9607266,
+      "sha256": "c075572ec6dad7e792f984fc04d2d0fd63ec77469d84e93e12a9cd2d1ca0f48c"
+    },
+    {
+      "dataset": "CMI-20208",
+      "fold": 4,
+      "rank": 3,
+      "epoch_one_based": 10,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-20208\\fold3\\snapshots\\snapshot_rank3.pt",
+      "bytes": 9607266,
+      "sha256": "bf000b698b6238c5fb02c041ae9ffd0b26c901f01e26ceb924646c5da0025547"
+    },
+    {
+      "dataset": "CMI-20208",
+      "fold": 4,
+      "rank": 4,
+      "epoch_one_based": 11,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-20208\\fold3\\snapshots\\snapshot_rank4.pt",
+      "bytes": 9607266,
+      "sha256": "19f920f34a7c74d8ad4b8df50e80726b380021c4c7df3137d726b0c15c8ec343"
+    },
+    {
+      "dataset": "CMI-20208",
+      "fold": 4,
+      "rank": 5,
+      "epoch_one_based": 19,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-20208\\fold3\\snapshots\\snapshot_rank5.pt",
+      "bytes": 9607266,
+      "sha256": "b22777a564ff0d6a6d6b7aa7ff912f04713b77203783c8d73e7a8b05e413011b"
+    },
+    {
+      "dataset": "CMI-20208",
+      "fold": 5,
+      "rank": 1,
+      "epoch_one_based": 14,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-20208\\fold4\\snapshots\\snapshot_rank1.pt",
+      "bytes": 9607266,
+      "sha256": "ae5067f39063725c28d9233022a43d3b878d9fba89f88f7136a62f28e77447ee"
+    },
+    {
+      "dataset": "CMI-20208",
+      "fold": 5,
+      "rank": 2,
+      "epoch_one_based": 9,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-20208\\fold4\\snapshots\\snapshot_rank2.pt",
+      "bytes": 9607266,
+      "sha256": "2fbf3de2fa1ac05e0b3caa1dc6be6d03d04de7a0a8cf24f3eb7e38de73da968b"
+    },
+    {
+      "dataset": "CMI-20208",
+      "fold": 5,
+      "rank": 3,
+      "epoch_one_based": 7,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-20208\\fold4\\snapshots\\snapshot_rank3.pt",
+      "bytes": 9607266,
+      "sha256": "38373c92c2e8ca77351b6eb0239dc6db741ab4ec81c071155ae1854ae863e42f"
+    },
+    {
+      "dataset": "CMI-20208",
+      "fold": 5,
+      "rank": 4,
+      "epoch_one_based": 13,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-20208\\fold4\\snapshots\\snapshot_rank4.pt",
+      "bytes": 9607266,
+      "sha256": "cd9598fedbe86fa2623694759e11b1444e585daa7bae9a1d6c0249fd6a64cbf9"
+    },
+    {
+      "dataset": "CMI-20208",
+      "fold": 5,
+      "rank": 5,
+      "epoch_one_based": 19,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-20208\\fold4\\snapshots\\snapshot_rank5.pt",
+      "bytes": 9607266,
+      "sha256": "e748643811638de5b2e4853b8c3cc34909fef330d1ac284d0b20f2006b94dc1b"
+    },
+    {
+      "dataset": "CMI-9589",
+      "fold": 1,
+      "rank": 1,
+      "epoch_one_based": 12,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9589\\fold0\\snapshots\\snapshot_rank1.pt",
+      "bytes": 8236386,
+      "sha256": "62c4056452d4261e8195a0a686f1006c0a478056d39fd28d5b976ee63d67252d"
+    },
+    {
+      "dataset": "CMI-9589",
+      "fold": 1,
+      "rank": 2,
+      "epoch_one_based": 11,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9589\\fold0\\snapshots\\snapshot_rank2.pt",
+      "bytes": 8236386,
+      "sha256": "d16023fde21ead8a869618aff89796e2950c65406c1a690b967682ff03ab82c8"
+    },
+    {
+      "dataset": "CMI-9589",
+      "fold": 1,
+      "rank": 3,
+      "epoch_one_based": 13,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9589\\fold0\\snapshots\\snapshot_rank3.pt",
+      "bytes": 8236386,
+      "sha256": "00b0e74689ff3465f05db355286d852784041ff84008e69e095ced15655fd2a6"
+    },
+    {
+      "dataset": "CMI-9589",
+      "fold": 1,
+      "rank": 4,
+      "epoch_one_based": 20,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9589\\fold0\\snapshots\\snapshot_rank4.pt",
+      "bytes": 8236386,
+      "sha256": "ae651b31b89af8556aa6498f7cb9bde5b8a9e70508e62f9dfdf16570fe9ff1b5"
+    },
+    {
+      "dataset": "CMI-9589",
+      "fold": 1,
+      "rank": 5,
+      "epoch_one_based": 14,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9589\\fold0\\snapshots\\snapshot_rank5.pt",
+      "bytes": 8236386,
+      "sha256": "cc72537e4ee6b34ee279a32351db4bc52df19a065b74948640b02ba5ef793e22"
+    },
+    {
+      "dataset": "CMI-9589",
+      "fold": 2,
+      "rank": 1,
+      "epoch_one_based": 21,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9589\\fold1\\snapshots\\snapshot_rank1.pt",
+      "bytes": 8236386,
+      "sha256": "6a2a5a5fd81c32bb9ee77e7830eea02674bf39f51c751a038c7a21bd34a9ca52"
+    },
+    {
+      "dataset": "CMI-9589",
+      "fold": 2,
+      "rank": 2,
+      "epoch_one_based": 16,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9589\\fold1\\snapshots\\snapshot_rank2.pt",
+      "bytes": 8236386,
+      "sha256": "4f534b98293cddd3c87477ede1aa9335f45919d9428ede6737fa7b05631c7395"
+    },
+    {
+      "dataset": "CMI-9589",
+      "fold": 2,
+      "rank": 3,
+      "epoch_one_based": 25,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9589\\fold1\\snapshots\\snapshot_rank3.pt",
+      "bytes": 8236386,
+      "sha256": "a078afb78616e314d68e3df2211b3f2ddf01a0383260f10e4f6f120d7836d0b9"
+    },
+    {
+      "dataset": "CMI-9589",
+      "fold": 2,
+      "rank": 4,
+      "epoch_one_based": 14,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9589\\fold1\\snapshots\\snapshot_rank4.pt",
+      "bytes": 8236386,
+      "sha256": "5e7e85d72bdb62bcab181de692f1c95b59543a7db0093dd78808f1575318b9e1"
+    },
+    {
+      "dataset": "CMI-9589",
+      "fold": 2,
+      "rank": 5,
+      "epoch_one_based": 18,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9589\\fold1\\snapshots\\snapshot_rank5.pt",
+      "bytes": 8236386,
+      "sha256": "80e91b9a864b1bd158b2942c0c39d5661131310ab8d135e48cf0834de2bc5c25"
+    },
+    {
+      "dataset": "CMI-9589",
+      "fold": 3,
+      "rank": 1,
+      "epoch_one_based": 10,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9589\\fold2\\snapshots\\snapshot_rank1.pt",
+      "bytes": 8236386,
+      "sha256": "5af0b816476d683f24b59ed3d005644e8c1c04807f9271fc7debfb6a56680b77"
+    },
+    {
+      "dataset": "CMI-9589",
+      "fold": 3,
+      "rank": 2,
+      "epoch_one_based": 15,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9589\\fold2\\snapshots\\snapshot_rank2.pt",
+      "bytes": 8236386,
+      "sha256": "94983e25faffe78ececa24b2c64af7467c88ad239a29dade20a528c63087c5ba"
+    },
+    {
+      "dataset": "CMI-9589",
+      "fold": 3,
+      "rank": 3,
+      "epoch_one_based": 18,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9589\\fold2\\snapshots\\snapshot_rank3.pt",
+      "bytes": 8236386,
+      "sha256": "5c0afb9626471060b271831a06f5d649bd6148622a011b1a68517a55d5397c15"
+    },
+    {
+      "dataset": "CMI-9589",
+      "fold": 3,
+      "rank": 4,
+      "epoch_one_based": 14,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9589\\fold2\\snapshots\\snapshot_rank4.pt",
+      "bytes": 8236386,
+      "sha256": "a46fc07e2bf83d55ca3b87867905b21bd174ea6c7dca5132ff25c94fca6e77dd"
+    },
+    {
+      "dataset": "CMI-9589",
+      "fold": 3,
+      "rank": 5,
+      "epoch_one_based": 12,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9589\\fold2\\snapshots\\snapshot_rank5.pt",
+      "bytes": 8236386,
+      "sha256": "6aa8e88396ad9f1034fbd9260284b0b68afdb114e7f821c490ff60551fb20689"
+    },
+    {
+      "dataset": "CMI-9589",
+      "fold": 4,
+      "rank": 1,
+      "epoch_one_based": 14,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9589\\fold3\\snapshots\\snapshot_rank1.pt",
+      "bytes": 8236386,
+      "sha256": "42c906861a59451e7e9e02f2fb4dd78f3e31bc2511ec75e37a5ea5b87a8385cf"
+    },
+    {
+      "dataset": "CMI-9589",
+      "fold": 4,
+      "rank": 2,
+      "epoch_one_based": 22,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9589\\fold3\\snapshots\\snapshot_rank2.pt",
+      "bytes": 8236386,
+      "sha256": "16d31ac7ca751d45cca03cfe23fb26686def53ebfac8e2cf2e28905fb7955393"
+    },
+    {
+      "dataset": "CMI-9589",
+      "fold": 4,
+      "rank": 3,
+      "epoch_one_based": 17,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9589\\fold3\\snapshots\\snapshot_rank3.pt",
+      "bytes": 8236386,
+      "sha256": "1e6552768708c72612c702fb8fa15983b129f22c447ae6996a88ce6302ab8fe0"
+    },
+    {
+      "dataset": "CMI-9589",
+      "fold": 4,
+      "rank": 4,
+      "epoch_one_based": 16,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9589\\fold3\\snapshots\\snapshot_rank4.pt",
+      "bytes": 8236386,
+      "sha256": "72f2ba7b1ee3f9ab84e6ccd2599d8c851d527ad15f84a2060c3453a292934098"
+    },
+    {
+      "dataset": "CMI-9589",
+      "fold": 4,
+      "rank": 5,
+      "epoch_one_based": 12,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9589\\fold3\\snapshots\\snapshot_rank5.pt",
+      "bytes": 8236386,
+      "sha256": "46eb13d98923aa58a8bc15d83506556a1051643e9698666d85f16bf2380aa5af"
+    },
+    {
+      "dataset": "CMI-9589",
+      "fold": 5,
+      "rank": 1,
+      "epoch_one_based": 19,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9589\\fold4\\snapshots\\snapshot_rank1.pt",
+      "bytes": 8236386,
+      "sha256": "228189767ab92fe91880136853a81b70848015fe1568967b37a4cd3964756e9e"
+    },
+    {
+      "dataset": "CMI-9589",
+      "fold": 5,
+      "rank": 2,
+      "epoch_one_based": 18,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9589\\fold4\\snapshots\\snapshot_rank2.pt",
+      "bytes": 8236386,
+      "sha256": "dcd4fcbb43dce969366a573b991bcddd9218e2656dd01f19ef3e538e174f3d66"
+    },
+    {
+      "dataset": "CMI-9589",
+      "fold": 5,
+      "rank": 3,
+      "epoch_one_based": 10,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9589\\fold4\\snapshots\\snapshot_rank3.pt",
+      "bytes": 8236386,
+      "sha256": "555c0ecd3f0c608ebbd1409fa0794586831505325774517e26edcd067a7e2341"
+    },
+    {
+      "dataset": "CMI-9589",
+      "fold": 5,
+      "rank": 4,
+      "epoch_one_based": 12,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9589\\fold4\\snapshots\\snapshot_rank4.pt",
+      "bytes": 8236386,
+      "sha256": "fe6fb03d749298218077244b0757fb1bc0a17354903871070f3b556b7b3c0059"
+    },
+    {
+      "dataset": "CMI-9589",
+      "fold": 5,
+      "rank": 5,
+      "epoch_one_based": 22,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9589\\fold4\\snapshots\\snapshot_rank5.pt",
+      "bytes": 8236386,
+      "sha256": "80fa32f757787bf32a96b33882ee98afebad6702a12dbdd2685126be005cadbb"
+    },
+    {
+      "dataset": "CMI-9905",
+      "fold": 1,
+      "rank": 1,
+      "epoch_one_based": 9,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9905\\fold0\\snapshots\\snapshot_rank1.pt",
+      "bytes": 8522082,
+      "sha256": "00eec4bef555ce4324992672c480bf11c80ccf93848b01b94c6bf364aa39536f"
+    },
+    {
+      "dataset": "CMI-9905",
+      "fold": 1,
+      "rank": 2,
+      "epoch_one_based": 14,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9905\\fold0\\snapshots\\snapshot_rank2.pt",
+      "bytes": 8522082,
+      "sha256": "227d5f5f2c2dfeaa75848676fc124ddece1ab4feba5d043e1875b829f3f841b3"
+    },
+    {
+      "dataset": "CMI-9905",
+      "fold": 1,
+      "rank": 3,
+      "epoch_one_based": 13,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9905\\fold0\\snapshots\\snapshot_rank3.pt",
+      "bytes": 8522082,
+      "sha256": "5ea1ca146fc0e2abd1df96a2d6f899a1a61c91d6d3a610dcdd3d6708686ce4bb"
+    },
+    {
+      "dataset": "CMI-9905",
+      "fold": 1,
+      "rank": 4,
+      "epoch_one_based": 17,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9905\\fold0\\snapshots\\snapshot_rank4.pt",
+      "bytes": 8522082,
+      "sha256": "91d1d8248acac3b842f074e425513ef125d742bcfb3c888f773e66c9adceaf2d"
+    },
+    {
+      "dataset": "CMI-9905",
+      "fold": 1,
+      "rank": 5,
+      "epoch_one_based": 16,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9905\\fold0\\snapshots\\snapshot_rank5.pt",
+      "bytes": 8522082,
+      "sha256": "98bd5b2e5d856f92ade32887d0f7bac8845ce0171cee0a693f6aee94be6f9731"
+    },
+    {
+      "dataset": "CMI-9905",
+      "fold": 2,
+      "rank": 1,
+      "epoch_one_based": 19,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9905\\fold1\\snapshots\\snapshot_rank1.pt",
+      "bytes": 8522082,
+      "sha256": "0f9c5bd682898c665c41b6a5e0e9f138c09dbe4c2a336c0f97b9f312761eae19"
+    },
+    {
+      "dataset": "CMI-9905",
+      "fold": 2,
+      "rank": 2,
+      "epoch_one_based": 16,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9905\\fold1\\snapshots\\snapshot_rank2.pt",
+      "bytes": 8522082,
+      "sha256": "d17731ad4d647822037b8d4a8bdc9735b9d1b60321f1f1ac419773edf27aba20"
+    },
+    {
+      "dataset": "CMI-9905",
+      "fold": 2,
+      "rank": 3,
+      "epoch_one_based": 13,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9905\\fold1\\snapshots\\snapshot_rank3.pt",
+      "bytes": 8522082,
+      "sha256": "395943e4595208d39692f7304c9608fd3f48a57a31d60d11c3683e838396036a"
+    },
+    {
+      "dataset": "CMI-9905",
+      "fold": 2,
+      "rank": 4,
+      "epoch_one_based": 25,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9905\\fold1\\snapshots\\snapshot_rank4.pt",
+      "bytes": 8522082,
+      "sha256": "8b77eda71b1e6540e341541fde9fc3ae86bfeda6ba92f8d51d67022d5241009c"
+    },
+    {
+      "dataset": "CMI-9905",
+      "fold": 2,
+      "rank": 5,
+      "epoch_one_based": 8,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9905\\fold1\\snapshots\\snapshot_rank5.pt",
+      "bytes": 8522082,
+      "sha256": "dfeaa05859d658a0e3829620e29be84fe5da15816a15de2a7ed7055ce33d1852"
+    },
+    {
+      "dataset": "CMI-9905",
+      "fold": 3,
+      "rank": 1,
+      "epoch_one_based": 12,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9905\\fold2\\snapshots\\snapshot_rank1.pt",
+      "bytes": 8522082,
+      "sha256": "75c5eb40cc66b665b17e9102a3c495cf7e3a5695d6e1b129f22d1419beb0ed1e"
+    },
+    {
+      "dataset": "CMI-9905",
+      "fold": 3,
+      "rank": 2,
+      "epoch_one_based": 17,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9905\\fold2\\snapshots\\snapshot_rank2.pt",
+      "bytes": 8522082,
+      "sha256": "f6aafdfc8900a7c3c01c1d7a29c64ccff66aec33d3e551615d8237dc3bda6377"
+    },
+    {
+      "dataset": "CMI-9905",
+      "fold": 3,
+      "rank": 3,
+      "epoch_one_based": 18,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9905\\fold2\\snapshots\\snapshot_rank3.pt",
+      "bytes": 8522082,
+      "sha256": "0263859cbc381e4326ade7f36b0ec5161eb3ffb3ef40ac1acf624dd6697a7b9d"
+    },
+    {
+      "dataset": "CMI-9905",
+      "fold": 3,
+      "rank": 4,
+      "epoch_one_based": 19,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9905\\fold2\\snapshots\\snapshot_rank4.pt",
+      "bytes": 8522082,
+      "sha256": "f2b8b404498f895c15cf91eaeebca9ef5c11c06132bd2853cac42e8a6823ac2f"
+    },
+    {
+      "dataset": "CMI-9905",
+      "fold": 3,
+      "rank": 5,
+      "epoch_one_based": 13,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9905\\fold2\\snapshots\\snapshot_rank5.pt",
+      "bytes": 8522082,
+      "sha256": "8b4de2c1a73dc78806f9ee3130e2ac6c13cdb7a893339d4b49639dec107df454"
+    },
+    {
+      "dataset": "CMI-9905",
+      "fold": 4,
+      "rank": 1,
+      "epoch_one_based": 10,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9905\\fold3\\snapshots\\snapshot_rank1.pt",
+      "bytes": 8522082,
+      "sha256": "e9de23ec4be3e77232ef03dc1cb27ae6e094f4fb6754f3305acad1836d6ca2da"
+    },
+    {
+      "dataset": "CMI-9905",
+      "fold": 4,
+      "rank": 2,
+      "epoch_one_based": 14,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9905\\fold3\\snapshots\\snapshot_rank2.pt",
+      "bytes": 8522082,
+      "sha256": "3110d30794e9412416d617176d40e498ce036c80e77f4ce2dc94ec4b891adc83"
+    },
+    {
+      "dataset": "CMI-9905",
+      "fold": 4,
+      "rank": 3,
+      "epoch_one_based": 18,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9905\\fold3\\snapshots\\snapshot_rank3.pt",
+      "bytes": 8522082,
+      "sha256": "17b18a0be0f89ad67e5a9964def2f2d9f05407df4a4ba480a1308561a2a12cc6"
+    },
+    {
+      "dataset": "CMI-9905",
+      "fold": 4,
+      "rank": 4,
+      "epoch_one_based": 13,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9905\\fold3\\snapshots\\snapshot_rank4.pt",
+      "bytes": 8522082,
+      "sha256": "dc8d2ea487757b05ee9a8befaa30321613264675d775a4d416dde86b19a9a2a3"
+    },
+    {
+      "dataset": "CMI-9905",
+      "fold": 4,
+      "rank": 5,
+      "epoch_one_based": 16,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9905\\fold3\\snapshots\\snapshot_rank5.pt",
+      "bytes": 8522082,
+      "sha256": "e113ab00393bb120d90ab04d0dcc88eba3d8676bbc2cd482a33e2f5106d7f20c"
+    },
+    {
+      "dataset": "CMI-9905",
+      "fold": 5,
+      "rank": 1,
+      "epoch_one_based": 25,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9905\\fold4\\snapshots\\snapshot_rank1.pt",
+      "bytes": 8522082,
+      "sha256": "58e8140cb915d058b1b821f39b2cd8b1e0910109af450569d2b773b760493e16"
+    },
+    {
+      "dataset": "CMI-9905",
+      "fold": 5,
+      "rank": 2,
+      "epoch_one_based": 18,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9905\\fold4\\snapshots\\snapshot_rank2.pt",
+      "bytes": 8522082,
+      "sha256": "11f8b0ef1ba5b950dc72b5bfecda135f92fc42a1794ce2de8f2e93a60d4c4e57"
+    },
+    {
+      "dataset": "CMI-9905",
+      "fold": 5,
+      "rank": 3,
+      "epoch_one_based": 20,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9905\\fold4\\snapshots\\snapshot_rank3.pt",
+      "bytes": 8522082,
+      "sha256": "08f4fb22d492e878b2f3a5ffe929ffaa0e7f2ca6a108558c15f512634fd8a8b2"
+    },
+    {
+      "dataset": "CMI-9905",
+      "fold": 5,
+      "rank": 4,
+      "epoch_one_based": 30,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9905\\fold4\\snapshots\\snapshot_rank4.pt",
+      "bytes": 8522082,
+      "sha256": "6002a2612722c12b0c13b14104d6d43e5c879a30f79d87d944f410ee0bf0b4e6"
+    },
+    {
+      "dataset": "CMI-9905",
+      "fold": 5,
+      "rank": 5,
+      "epoch_one_based": 27,
+      "path": "E:\\py_file\\genome\\DGCLCMI-main\\outputs\\historical_protocol_6d_10d_20261103\\results\\CMI-9905\\fold4\\snapshots\\snapshot_rank5.pt",
+      "bytes": 8522082,
+      "sha256": "9d962c30880f526efa866422a283e272332bf832caac9aca0d06d830ee44a57b"
+    }
+  ],
+  "completed_at_utc": "2026-11-03T05:54:52.370614+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "dataset": "CMI-9589",
+  "fold": 1,
+  "device": "cuda:0",
+  "threshold": 0.5,
+  "test": {
+    "auc": 0.9729009297789124,
+    "aupr": 0.972909916906125,
+    "accuracy": 0.9285714285714286,
+    "precision": 0.9428879310344828,
+    "sensitivity": 0.9124087591240876,
+    "specificity": 0.9447340980187695,
+    "mcc": 0.8575910344943801
+  },
+  "maximum_probability_difference_from_saved": 2.0460992286586155e-07,
+  "metric_differences_from_saved": {
+    "auc": 0.0,
+    "aupr": 0.0,
+    "accuracy": 0.0,
+    "precision": 0.0,
+    "sensitivity": 0.0,
+    "specificity": 0.0,
+    "mcc": 0.0
+  }
+}

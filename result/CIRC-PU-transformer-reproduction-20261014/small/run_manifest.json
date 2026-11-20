@@ -1,0 +1,59 @@
+{
+  "started_at_utc": "2026-10-14T13:44:43.482857+00:00",
+  "arguments": {
+    "preset": "transformer",
+    "datasets": [
+      "CMI-9589",
+      "CMI-9905"
+    ],
+    "folds": 5,
+    "epochs": 30,
+    "batch_size": 1024,
+    "lr": 0.001,
+    "weight_decay": 1e-05,
+    "alignment_weight": 0.02,
+    "pu_weight": 0.03,
+    "patience": 8,
+    "d_model": 192,
+    "sequence_layers": 1,
+    "graph_layers": 3,
+    "sequence_encoder": "transformer",
+    "model": "circpu",
+    "split": "fivefold",
+    "validation_fraction": 0.1,
+    "use_structure_features": false,
+    "ensemble_size": 5,
+    "add_word2vec": false,
+    "stack_validation": true,
+    "eval_batch_size": 2048,
+    "circ_segment_length": 64,
+    "circ_segments": 4,
+    "seed": 42,
+    "output_dir": "E:\\py_file\\genome\\DGCLCMI-main\\result\\CIRC-PU-transformer-reproduction-20261014\\small"
+  },
+  "command": [
+    "circpu.run",
+    "--preset",
+    "transformer",
+    "--datasets",
+    "CMI-9589",
+    "CMI-9905",
+    "--output-dir",
+    "E:\\py_file\\genome\\DGCLCMI-main\\result\\CIRC-PU-transformer-reproduction-20261014\\small"
+  ],
+  "python": "3.10.18 | packaged by Anaconda, Inc. | (main, Jun  5 2025, 13:08:55) [MSC v.1929 64 bit (AMD64)]",
+  "torch": "2.8.0+cu128",
+  "numpy": "1.26.4",
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 5060 Ti",
+  "source_sha256": {
+    "data.py": "59307653bd33c9dbe457b1f42323922bfba705cb8793310618ddf03edf4d7914",
+    "model.py": "ca4e55c23e7165856e6b974994187a198a0459096e06f5fca50b2842600d6e26",
+    "run.py": "9fc723eeabb90e79e76d3984207616daeb5280c7a82d450e2d58b6d5b73747b7",
+    "__init__.py": "791df2286c0d69f346f2e0a7d78f7734d9fd73a108b96a84ec8a74b7201242b2"
+  },
+  "validation_role": "model selection and stacker fitting",
+  "test_role": "held-out pairs; not an external dataset or node cold-start test",
+  "completed_at_utc": "2026-10-14T13:59:07.573295+00:00",
+  "completed_folds": 10
+}
